@@ -7,7 +7,34 @@
     <groupId>groupId</groupId>
     <artifactId>fitnesse-learn</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
-    </dependencies>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.sample</groupId>
+            <artifactId>sample</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/fitlibrary-2.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.sample</groupId>
+            <artifactId>sample</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/fitnesse-20200501-standalone.jar</systemPath>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3.1</version>
+                <configuration>
+                    <finalName>fitnesse-learn</finalName>
+                    <outputDirectory>lib</outputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

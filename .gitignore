@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+./target
+.idea/.gitignore
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/fitnesse-learn.iml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+src/main/java/myslim/
+src/main/resources/
+src/test/
+target/
