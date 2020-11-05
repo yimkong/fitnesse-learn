@@ -31,10 +31,3 @@ public class TestColumnFixture extends ColumnFixture {
         this.denominator = denominator;
     }
 }
-
-!path myfit
-|myfit.TestColumnFixture|
-|numerator|denominator|quotient?|
-|10|2|5|
-|12.6|3|4.2|
-|100|4|33|
