@@ -14,5 +14,7 @@ To add your first "page", click the [[Edit][.FrontPage?edit]] button and add a [
 
 !note Release ${FITNESSE_VERSION}
 
-
-!path  C:\project\fitnesse-learn\target\classes
+!define TEST_SYSTEM {fit}
+!path  ${project_home}\lib\fitnesse-learn.jar
+!path  ${project_home}\lib\fitnesse-20200501-standalone.jar
+!path  ${project_home}\lib\fitlibrary-2.0.jar

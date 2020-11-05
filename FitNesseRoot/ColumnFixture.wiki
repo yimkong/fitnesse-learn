@@ -1,9 +1,7 @@
 ---
 Test
 ---
-!contents -R2 -g -p -f -h
-
-!path  myfit
+!path  ${project_home}\lib\fitnesse-learn.jar
 
 |myfit.TestColumnFixture|
 |numerator|denominator|quotient?|
