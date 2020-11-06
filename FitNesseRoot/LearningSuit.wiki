@@ -1,4 +1,6 @@
 ---
 Suite
 ---
-ColumnFixture
+LearningSuit.ColumnFixture
+
+>RowFixture
