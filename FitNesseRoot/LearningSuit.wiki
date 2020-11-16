@@ -4,3 +4,7 @@ Suite
 LearningSuit.ColumnFixture
 
 >RowFixture
+
+>ActionFixture
+
+TestWithoutSymble
