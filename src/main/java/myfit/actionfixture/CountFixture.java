@@ -18,4 +18,7 @@ public class CountFixture extends Fixture {
         return counter;
     }
 
+    public void testEnter(int val) {
+        counter += val;
+    }
 }

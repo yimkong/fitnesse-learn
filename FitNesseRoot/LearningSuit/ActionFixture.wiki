@@ -13,6 +13,14 @@ Test
 |enter|counter|	5|
 |press|count|
 |check|counter|	6|
+|press|count|
+|press|count|
+|check|counter|	5|
+|enter|test enter|2|
+|check|counter|	7|
+|press|count|2|
+|check|counter|	8|
+
 
 |fit.TimedActionFixture|
 |start|myfit.actionfixture.DelayedCountFixture|
