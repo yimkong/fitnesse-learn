@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
  * date 2020/11/17
  */
 @RunWith(FitNesseRunner.class)
-@FitNesseRunner.Suite("LearningSuit.ActionFixture")
+@FitNesseRunner.Suite("LearningSuit.FlowModeSuitTest.SimplePlayerTest")
 @FitNesseRunner.FitnesseDir(value = ".",systemProperty = "C:\\project\\fitnesse-learn\\FitNesseRoot")
 @FitNesseRunner.OutputDir("./build/fitnesse-results")
 public class FitNesseRunnerTest {
