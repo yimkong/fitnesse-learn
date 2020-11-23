@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.FlowModeSuitTest.SimplePlayerTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <date>2020-11-23T15:47:26+08:00</date>
+    <runTimeInMillis>13</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;myfit.flowmode.DoFixtureFlowTest&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: myfit.flowmode.DoFixtureFlowTest.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="error"&gt;prepare players&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: PreparePlayers.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;player&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;John&lt;/td&gt;
+		&lt;td&gt;SW4 66Z&lt;/td&gt;
+		&lt;td&gt;10.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Mike&lt;/td&gt;
+		&lt;td&gt;NE1 SAT&lt;/td&gt;
+		&lt;td&gt;12.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="error"&gt;list players&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: ListPlayers.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;player&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;John&lt;/td&gt;
+		&lt;td&gt;SW4 66Z&lt;/td&gt;
+		&lt;td&gt;10.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Mike&lt;/td&gt;
+		&lt;td&gt;NE1 SAT&lt;/td&gt;
+		&lt;td&gt;12.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SimplePlayerTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_152\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar fit.FitServer DESKTOP-0140P2A 5301 3863</command>
+    <exitCode>3</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>773</totalRunTimeInMillis>
+</testResults>
+
