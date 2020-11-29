@@ -1,0 +1,680 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.SlimSuit.BuyMilkTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>8</wrong>
+      <ignores>0</ignores>
+      <exceptions>16</exceptions>
+    </counts>
+    <date>2020-11-29T21:55:45+08:00</date>
+    <runTimeInMillis>164</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="LearningSuit.SlimSuit.SetUp"&gt;.LearningSuit.SlimSuit.SetUp&lt;/a&gt; &lt;a href="LearningSuit.SlimSuit.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.slim.test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;should I buy milk&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;cash in wallet credit card&lt;/td&gt;
+		&lt;td&gt;pints of milk remaining&lt;/td&gt;
+		&lt;td colspan="2"&gt;go to store?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no &lt;span class="error"&gt;Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;0&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;10 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no &lt;span class="error"&gt;Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;0&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes &lt;span class="error"&gt;Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;0&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;10 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes &lt;span class="error"&gt;Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;0&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no &lt;span class="error"&gt;Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;10 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no &lt;span class="error"&gt;Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;0 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes &lt;span class="error"&gt;Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;no&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;10 &lt;span class="error"&gt;No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&amp;gt; boolean
+execute() -&amp;gt; void
+getClass() -&amp;gt; class java.lang.Class
+goToStore() -&amp;gt; class java.lang.String
+hashCode() -&amp;gt; int
+notify() -&amp;gt; void
+notifyAll() -&amp;gt; void
+setCashInWallet(int) -&amp;gt; void
+setCreditCard(java.lang.String) -&amp;gt; void
+setPintsOfMilkRemaining(int) -&amp;gt; void
+table(java.util.List) -&amp;gt; void
+toString() -&amp;gt; class java.lang.String
+wait() -&amp;gt; void
+wait(long) -&amp;gt; void
+wait(long, int) -&amp;gt; void&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;yes &lt;span class="error"&gt;Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&amp;gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;[&lt;span class="diff"&gt;no&lt;/span&gt;] &lt;span class="fail"&gt;expected [&lt;span class="diff"&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;nope&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>BuyMilkTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='fitnesse.slim.test'}</instruction>
+        <slimResult>pass(fitnesse.slim.test)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.slim.test</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_0_1', instruction='import', path='fitnesse.fixtures'}</instruction>
+        <slimResult>pass(fitnesse.fixtures)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.fixtures</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='ShouldIBuyMilk', args=[]}</instruction>
+        <slimResult>pass(should I buy milk)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>decisionTable_1_0</instructionId>
+          <col>0</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+          <evaluationMessage>should I buy milk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[no]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_5</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=0)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_7</instructionId>
+          <col>2</col>
+          <row>2</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>0</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_9</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[no]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_10</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=0)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_12</instructionId>
+          <col>2</col>
+          <row>3</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>0</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_14</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_15', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[yes]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_15</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=0)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_17</instructionId>
+          <col>2</col>
+          <row>4</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>0</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_19</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[yes]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_20</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=0)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_22</instructionId>
+          <col>2</col>
+          <row>5</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>0</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_24</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[no]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_25</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_27', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=1)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_27</instructionId>
+          <col>2</col>
+          <row>6</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>1</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_29', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_29</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_30', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[no]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_30</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert no to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_32', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=1)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_32</instructionId>
+          <col>2</col>
+          <row>7</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>1</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_34', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[0]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_34</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_35', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[yes]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_35</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_37', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=1)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_37</instructionId>
+          <col>2</col>
+          <row>8</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>1</expected>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_39', instruction='call', instanceName='decisionTable_1', methodName='setCashInWalletCreditCard', args=[10]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_39</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>No Method setCashInWalletCreditCard[1] in class fitnesse.slim.test.ShouldIBuyMilk.
+ Available methods:
+equals(java.lang.Object) -&gt; boolean
+execute() -&gt; void
+getClass() -&gt; class java.lang.Class
+goToStore() -&gt; class java.lang.String
+hashCode() -&gt; int
+notify() -&gt; void
+notifyAll() -&gt; void
+setCashInWallet(int) -&gt; void
+setCreditCard(java.lang.String) -&gt; void
+setPintsOfMilkRemaining(int) -&gt; void
+table(java.util.List) -&gt; void
+toString() -&gt; class java.lang.String
+wait() -&gt; void
+wait(long) -&gt; void
+wait(long, int) -&gt; void</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_40', instruction='call', instanceName='decisionTable_1', methodName='setPintsOfMilkRemaining', args=[yes]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_1_40</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>Can't convert yes to integer.
+Tried to invoke: fitnesse.slim.test.ShouldIBuyMilk.setPintsOfMilkRemaining(int) -&gt; void. On instance of: fitnesse.slim.test.ShouldIBuyMilk</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_1_42', instruction='call', instanceName='decisionTable_1', methodName='goToStore', args=[]}</instruction>
+        <slimResult>fail(a=no;e=1)</slimResult>
+        <expectation>
+          <status>fail</status>
+          <instructionId>decisionTable_1_42</instructionId>
+          <col>2</col>
+          <row>9</row>
+          <type>ReturnedValueExpectation</type>
+          <actual>no</actual>
+          <expected>1</expected>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_152\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>476</totalRunTimeInMillis>
+</testResults>
+
