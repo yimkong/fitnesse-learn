@@ -1,3 +1,4 @@
+|LearningSuit.ColumnFixture||23:28:11 星期四, 十二月 03, 2020|
 |LearningSuit.SlimSuit.BuyMilkTest||22:03:51 星期日, 十一月 29, 2020|
 |LearningSuit.SlimSuit||21:55:37 星期日, 十一月 29, 2020|
 |LearningSuit.SlimSuit.AnotherSuit.MyTest||21:54:16 星期日, 十一月 29, 2020|
@@ -14,7 +15,6 @@
 |LearningSuit.SimpleTest||22:28:01 星期一, 十一月 16, 2020|
 |LearningSuit.TestActionfixture||22:25:25 星期一, 十一月 16, 2020|
 |LearningSuit.RowFixture||23:04:25 星期五, 十一月 06, 2020|
-|LearningSuit.ColumnFixture||23:01:30 星期五, 十一月 06, 2020|
 |ColumnFixture||22:21:45 星期五, 十一月 06, 2020|
 |FrontPage||21:39:41 星期四, 十一月 05, 2020|
 |LearningSuit.test||22:01:20 星期三, 十一月 04, 2020|

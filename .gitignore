@@ -10,6 +10,5 @@
 .idea/modules.xml
 .idea/vcs.xml
 src/main/resources/
-src/test/
 target/
 build

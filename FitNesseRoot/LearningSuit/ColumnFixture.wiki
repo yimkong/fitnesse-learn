@@ -1,9 +1,11 @@
 ---
 Test
 ---
+!define COMMAND_PATTERN {java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp %p %m}
+
 !path  ${project_home}\lib\fitnesse-learn.jar
 |myfit.TestColumnFixture|
-|numerator|denominator|quotient?|
-|10|2|5|
-|12.6|3|4.2|
-|100|4|33|
+|numerator|denominator|quotient?|quotient??|quotient!!|
+|10|2|5|.*|\d+\.\d+|
+|12.6|3|4.2|||
+|100|4|33|||
