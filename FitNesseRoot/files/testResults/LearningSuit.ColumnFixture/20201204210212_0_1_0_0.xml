@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.ColumnFixture</rootPath>
+  <result>
+    <counts>
+      <right>4</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2020-12-04T21:03:34+08:00</date>
+    <runTimeInMillis>2571</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp %p %m&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: C:\project\fitnesse-learn\lib\fitnesse-learn.jar&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="6"&gt;myfit.TestColumnFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;numerator&lt;/td&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;quotient?&lt;/td&gt;
+		&lt;td&gt;quotient??&lt;/td&gt;
+		&lt;td&gt;quotient!!&lt;/td&gt;
+		&lt;td&gt;=numerator=&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;5&lt;/td&gt;
+		&lt;td class="pass"&gt;.*&lt;/td&gt;
+		&lt;td class="pass"&gt;\d+\.\d+&lt;/td&gt;
+		&lt;td&gt;3 &lt;span class="fit_grey"&gt; = 10.0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12.6&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td class="pass"&gt;4.2&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;4.2&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt; &lt;span class="fit_grey"&gt;4.2&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;100&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td class="fail"&gt;33 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;25.0 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt; &lt;span class="fit_grey"&gt;25.0&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="2"&gt; &lt;span class="fit_grey"&gt;25.0&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ColumnFixture</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitnesse-learn.jar fit.FitServer DESKTOP-0140P2A 13282 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>84383</totalRunTimeInMillis>
+</testResults>
+

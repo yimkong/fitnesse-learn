@@ -9,6 +9,4 @@ LearningSuit.ColumnFixture
 
 TestWithoutSymble
 
->FlowModeSuitTest
-
 >SlimSuit

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.FlowModeSuitTest.SimplePlayerTest</rootPath>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_152\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 4442 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at fit.FitServerBridge.&lt;clinit&gt;(FitServerBridge.java:32)
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Logger
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 13 more
+Exception in thread "main" 
+</stdErr>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1023</totalRunTimeInMillis>
+</testResults>
+

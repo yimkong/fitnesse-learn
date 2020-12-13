@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.SlimSuit.AnotherSuit.MyTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2020-12-13T12:47:25+08:00</date>
+    <runTimeInMillis>4</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="LearningSuit.SlimSuit.SetUp"&gt;.LearningSuit.SlimSuit.SetUp&lt;/a&gt; &lt;a href="LearningSuit.SlimSuit.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.slim.test&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fitnesse.fixtures&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;</content>
+    <relativePageName>MyTest</relativePageName>
+  </result>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>4</totalRunTimeInMillis>
+</testResults>
+

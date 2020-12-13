@@ -1,8 +1,9 @@
+#!define COMMAND_PATTERN {java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp %p %m}
 !define TEST_SYSTEM {slim}
 #!path  ${project_home}\lib\*.jar
 
 |should I buy milk|
-|cash in wallet credit card|pints of milk remaining|	go to store?|
+|cash in wallet| credit card|pints of milk remaining|	go to store?|
 |0|no|0|no|
 |10|no|0|yes|
 
@@ -18,3 +19,7 @@
 |0|we actually allow negative amounts, meaning debt|yes|1|no|this is document|
 |0|must have at least 2 euros|yes|one|no|
 
+!path  ${project_home}\lib\fitnesse-learn.jar
+|test column fixture|
+|numerator|denominator|quotient?|=denominator|
+|10|2|5.0|result|

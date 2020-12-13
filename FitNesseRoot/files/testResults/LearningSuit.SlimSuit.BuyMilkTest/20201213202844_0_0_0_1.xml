@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.SlimSuit.BuyMilkTest</rootPath>
+  <result>
+    <counts>
+      <right></right>
+      <wrong></wrong>
+      <ignores></ignores>
+      <exceptions></exceptions>
+    </counts>
+    <date>2020-12-13T20:28:44+08:00</date>
+    <runTimeInMillis>$result.runTimeInMillis</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="LearningSuit.SlimSuit.SetUp"&gt;.LearningSuit.SlimSuit.SetUp&lt;/a&gt; &lt;a href="LearningSuit.SlimSuit.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.slim.test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;fitnesse.fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;myslim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp %p %m&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;</content>
+    <relativePageName>BuyMilkTest</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='fitnesse.slim.test'}</instruction>
+        <slimResult>pass(fitnesse.slim.test)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.slim.test</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_0_1', instruction='import', path='fitnesse.fixtures'}</instruction>
+        <slimResult>pass(fitnesse.fixtures)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_1</instructionId>
+          <col>0</col>
+          <row>2</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>fitnesse.fixtures</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='import_0_2', instruction='import', path='myslim'}</instruction>
+        <slimResult>pass(myslim)</slimResult>
+        <expectation>
+          <status>pass</status>
+          <instructionId>import_0_2</instructionId>
+          <col>0</col>
+          <row>3</row>
+          <type>ImportExpectation</type>
+          <evaluationMessage>myslim</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitnesse-learn.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+    <exception>Could not send/receive data with SUT</exception>
+    <exception>fitnesse.testsystems.slim.SlimCommunicationException: Could not send/receive data with SUT</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>143959</totalRunTimeInMillis>
+</testResults>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.SlimSuit.BuyMilkTest</rootPath>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitnesse-learn.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>2</exitCode>
+    <stdOut>ERROR: transport error 202: connect failed: Connection refused
+ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
+JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [debugInit.c:750]
+</stdOut>
+    <stdErr></stdErr>
+    <exception>Error SLiM server died before Header Message could be read. </exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>2141</totalRunTimeInMillis>
+</testResults>
+

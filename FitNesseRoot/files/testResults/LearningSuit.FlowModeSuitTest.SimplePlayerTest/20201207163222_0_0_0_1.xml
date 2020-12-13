@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.FlowModeSuitTest.SimplePlayerTest</rootPath>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_152\bin\java" -cp defaultPath fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 6376 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>����: �Ҳ������޷��������� fitlibrary.suite.FitLibraryServer
+</stdErr>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1072</totalRunTimeInMillis>
+</testResults>
+
