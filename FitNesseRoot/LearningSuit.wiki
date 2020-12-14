@@ -1,12 +1,16 @@
 ---
 Suite
 ---
-LearningSuit.ColumnFixture
+!contents -R1 -g
 
->RowFixture
+LearningSuit.ColumnFixtureTest
 
->ActionFixture
+>RowFixtureTest
+
+>ActionFixtureTest
 
 TestWithoutSymble
 
->SlimSuit
+>SlimSuite
+
+

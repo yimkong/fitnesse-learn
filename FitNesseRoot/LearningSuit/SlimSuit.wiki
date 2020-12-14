@@ -1,8 +1,0 @@
----
-Suite
----
->BuyMilkTest
-
->SetUp
-
->AnotherSuit
