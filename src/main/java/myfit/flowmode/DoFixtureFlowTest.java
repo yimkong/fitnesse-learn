@@ -18,6 +18,7 @@ public class DoFixtureFlowTest extends DoFixture {
     public List<Player> listPlayers() {
         return PlayerHolder.playerList;
     }
+
 }
 
 

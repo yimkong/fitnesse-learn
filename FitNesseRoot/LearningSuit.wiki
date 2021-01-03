@@ -13,4 +13,16 @@ TestWithoutSymble
 
 >SlimSuite
 
+>FlowModeTest
 
+
+
+
+
+
+
+!define TEST_SYSTEM {fit}
+!path  ${project_home}\lib\fitnesse-learn.jar
+!path  ${project_home}\lib\fitnesse-20200501-standalone.jar
+!path  ${project_home}\lib\fitlibrary-2.0.jar
+!path  ${project_home}\lib\log4j-1.2.17.jar

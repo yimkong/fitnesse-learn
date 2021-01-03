@@ -1,0 +1,16 @@
+!|myfit.flowmode.DoFixtureFlowTest|
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+
+!3 The following table is executed by an embedded !-SetUpFixture-!-!-!
+
+|prepare players|
+|name|post code|balance|
+|John Smith|SW4 66Z|10.00|
+|Michael Jordan|NE1 8AT|12.00|
+
+!3 The following table is executed by an !-ArrayFixture-!-!-!
+
+|list players|
+|name|post code|balance|
+|John Smith|SW4 66Z|10.00|
+|Michael Jordan|NE1 8AT|12.00|

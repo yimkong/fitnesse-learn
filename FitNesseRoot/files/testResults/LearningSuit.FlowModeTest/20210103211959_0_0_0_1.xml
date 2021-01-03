@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.FlowModeTest</rootPath>
+  <executionLog>
+    <testSystem>fit:FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar FitLibraryServer DESKTOP-0140P2A 14762 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>����: �Ҳ������޷��������� FitLibraryServer
+</stdErr>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1034</totalRunTimeInMillis>
+</testResults>
+
