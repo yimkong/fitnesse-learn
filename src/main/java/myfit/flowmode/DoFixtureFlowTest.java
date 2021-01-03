@@ -2,6 +2,7 @@ package myfit.flowmode;
 
 import fit.Fixture;
 import fitlibrary.DoFixture;
+import myfit.TestColumnFixture;
 
 import java.util.List;
 
@@ -19,6 +20,11 @@ public class DoFixtureFlowTest extends DoFixture {
         return PlayerHolder.playerList;
     }
 
+    public Fixture testQuotient(int numerator) {
+        TestColumnFixture testColumnFixture = new TestColumnFixture();
+        testColumnFixture.setNumerator(numerator);
+        return testColumnFixture;
+    }
 }
 
 

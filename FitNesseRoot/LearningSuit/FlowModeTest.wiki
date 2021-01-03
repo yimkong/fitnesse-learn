@@ -14,3 +14,10 @@
 |name|post code|balance|
 |John Smith|SW4 66Z|10.00|
 |Michael Jordan|NE1 8AT|12.00|
+
+
+!3 The following table is executed by an !-TestColumnFixture-!-!
+|testQuotient|20|
+|denominator|quotient?|
+|2|10|
+|5|3<_<5|
