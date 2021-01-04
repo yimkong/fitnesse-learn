@@ -16,19 +16,8 @@ public class TestColumnFixture extends ColumnFixture {
         return numerator / denominator;
     }
 
-    public double getNumerator() {
-        return numerator;
-    }
-
     public void setNumerator(double numerator) {
         this.numerator = numerator;
     }
 
-    public double getDenominator() {
-        return denominator;
-    }
-
-    public void setDenominator(double denominator) {
-        this.denominator = denominator;
-    }
 }

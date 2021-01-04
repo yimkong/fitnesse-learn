@@ -8,6 +8,6 @@
 |11|
 
 |myfit.rowfixture.EmployeePayRecordsRowFixture|
-|id|pay()|
-|1|1000|
-|2|2000|
+|id|pay()|salary|
+|1|1000|1000|
+|2|2000|2000|

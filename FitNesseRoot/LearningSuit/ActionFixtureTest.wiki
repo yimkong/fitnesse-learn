@@ -3,7 +3,7 @@
 |ActionFixture|
 |start|myfit.actionfixture.CountFixture|
 |check|counter|	0|
-|press|count|
+|press|count|2|
 |check|counter|	1|
 |press|count|
 |check|counter|	2|
@@ -22,10 +22,7 @@
 |fit.TimedActionFixture|
 |start|myfit.actionfixture.DelayedCountFixture|
 |check|counter|	0|
-|press|count|
+|press|count|	
 |check|counter|	1|
-|press|count|
-|check|counter|	2|
-|enter|counter|	5|
-|press|count|
-|check|counter|	6|
+|enter|enterCount|3|
+|check|counter|4|

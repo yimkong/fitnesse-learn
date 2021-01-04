@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.ActionFixtureTest</rootPath>
+  <result>
+    <counts>
+      <right>9</right>
+      <wrong>1</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2021-01-04T21:49:35+08:00</date>
+    <runTimeInMillis>5522</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;classpath: C:\project\fitnesse-learn\lib\fitnesse-learn.jar&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;ActionFixture&lt;a title="create page" href="LearningSuit.ActionFixture?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;myfit.actionfixture.CountFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td&gt;count&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;enter&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find method: counter.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="fail"&gt;6 &lt;span class="fit_label"&gt;expected&lt;/span&gt;&lt;hr&gt;3 &lt;span class="fit_label"&gt;actual&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;count&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;test enter&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;7&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td&gt;count&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;8&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;fit.TimedActionFixture&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;time&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;split&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;start&lt;/td&gt;
+		&lt;td colspan="2"&gt;myfit.actionfixture.DelayedCountFixture&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;09:49:35&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;&amp;nbsp;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;0&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;09:49:35&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;1.501&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;press&lt;/td&gt;
+		&lt;td colspan="2"&gt;count&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;09:49:36&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;1.0&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;1&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;09:49:37&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;1.501&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;enter&lt;/td&gt;
+		&lt;td&gt;enterCount&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;09:49:39&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;&amp;nbsp;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;counter&lt;/td&gt;
+		&lt;td class="pass"&gt;4&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;09:49:39&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; &lt;span class="fit_grey"&gt;1.501&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ActionFixtureTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fit.FitServer DESKTOP-0140P2A 11258 3863</command>
+    <exitCode>2</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>5936</totalRunTimeInMillis>
+</testResults>
+
