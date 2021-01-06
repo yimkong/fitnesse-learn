@@ -1,11 +1,15 @@
 package myfit.flowmode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * author yg
  * description
  * date 2020/11/23
  */
 public class Player {
+
     private String name;
     private String postCode;
     private String balance;

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.TableFixtureTest</rootPath>
+  <result>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2021-01-06T21:55:13+08:00</date>
+    <runTimeInMillis>56</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;myfit.tablefixture.TableFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Item&lt;/td&gt;
+		&lt;td&gt;Product code&lt;/td&gt;
+		&lt;td&gt;Price&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Pragmatic Programmer&lt;/td&gt;
+		&lt;td&gt;B978-0201616224&lt;/td&gt;
+		&lt;td&gt;34.03&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Sony RDR-GX330&lt;/td&gt;
+		&lt;td&gt;ERDR-GX330&lt;/td&gt;
+		&lt;td&gt;94.80&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Test Driven Development By Example&lt;/td&gt;
+		&lt;td&gt;B978-0321146533&lt;/td&gt;
+		&lt;td&gt;32.39&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Net Total&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;161.22&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Tax (10% on applicable items)&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td class="pass"&gt;9.48&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Total&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;170.70&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>TableFixtureTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fit.FitServer DESKTOP-0140P2A 13655 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>718</totalRunTimeInMillis>
+</testResults>
+
