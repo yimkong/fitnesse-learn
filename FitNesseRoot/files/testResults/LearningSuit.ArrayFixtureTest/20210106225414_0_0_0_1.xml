@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.ArrayFixtureTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <date>2021-01-06T22:54:14+08:00</date>
+    <runTimeInMillis>51</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitlibrary.suite.FitLibraryServer&lt;/span&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="error"&gt;myfit.TestArrayFixture&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type getMyfitDotTestArrayFixture() { }&lt;/li&gt;&lt;li&gt;public Type myfitDotTestArrayFixture() { }&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;name&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type nameCreditLimit(Type1 arg1) { }&lt;/li&gt;&lt;li&gt;public Type name(Type p1, Type p2) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td&gt;credit limit&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;John Smith&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type johnSmith10(Type1 arg1) { }&lt;/li&gt;&lt;li&gt;public Type johnSmith(Type p1, Type p2) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;SW4 66Z&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;Michael Jordan&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type michaelJordan12(Type1 arg1) { }&lt;/li&gt;&lt;li&gt;public Type michaelJordan(Type p1, Type p2) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;NE1 8AT&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ArrayFixtureTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 6477 3863</command>
+    <exitCode>4</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>560</totalRunTimeInMillis>
+</testResults>
+

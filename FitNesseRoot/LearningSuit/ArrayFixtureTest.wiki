@@ -1,5 +1,5 @@
 !define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
-!|myfit.TestArrayFixture|
+!|myfit.arrayfixture.TestArrayFixture|
 |name|post code|credit limit|
 |John Smith|SW4 66Z|10|
-|Michael Jordan|NE1 8AT|12|
+|Michael Jordan|NE1 8AT|23|

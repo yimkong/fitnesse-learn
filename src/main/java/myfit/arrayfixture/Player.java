@@ -8,7 +8,7 @@ public class Player {
 
     static {
         players.add(new Player("John Smith", "SW4 66Z", "10"));
-        players.add(new Player("Michael Jordan\t", "NE1 8AT", "23"));
+        players.add(new Player("Michael Jordan", "NE1 8AT", "23"));
     }
 
     private final String name;
