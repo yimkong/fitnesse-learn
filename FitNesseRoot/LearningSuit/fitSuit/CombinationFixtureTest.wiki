@@ -1,0 +1,7 @@
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+
+!3  The second row contains an empty cell followed by cells containing the values to be used as the second parameter for the operation . and the first column is the first parameter
+!|myfit.CombinationFixtureTest|
+|  |1 |2|3|
+|6 |6 |3|2|
+|12|12|6|4|

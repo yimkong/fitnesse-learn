@@ -3,22 +3,6 @@ Suite
 ---
 !contents -R1 -g
 
-LearningSuit.ColumnFixtureTest
-
->RowFixtureTest
-
->ActionFixtureTest
-
-TestWithoutSymble
-
->SlimSuite
-
->FlowModeTest
-
-
-
-
-
 
 
 !define TEST_SYSTEM {fit}

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.fitSuit.CombinationFixtureTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <date>2021-01-09T21:10:13+08:00</date>
+    <runTimeInMillis>23</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitlibrary.suite.FitLibraryServer&lt;/span&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;myfit.CombinationFixtureTest&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type getMyfitDotCombinationFixtureTest() { }&lt;/li&gt;&lt;li&gt;public Type myfitDotCombinationFixtureTest() { }&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type two(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type blank(Type p1, Type p2, Type p3) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;6&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type six3(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type six(Type p1, Type p2, Type p3) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;12&lt;hr/&gt; &lt;span class="fit_label"&gt;Missing class or Missing method. Possibly:&lt;ul&gt;&lt;li&gt;public Type one26(Type1 arg1, Type2 arg2) { }&lt;/li&gt;&lt;li&gt;public Type one2(Type p1, Type p2, Type p3) {}&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;12&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>CombinationFixtureTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 8358 3863</command>
+    <exitCode>4</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>637</totalRunTimeInMillis>
+</testResults>
+

@@ -1,0 +1,7 @@
+#!define COMMAND_PATTERN {java -Xdebug -Xnoagent -Xrunjdwp:transport=dt_socket,address=192.168.0.118:5005,server=n,suspend=y -cp %p %m}
+
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+!|myfit.arrayfixture.TestArrayFixture|
+|name|post code|balance|
+|John Smith|SW4 66Z|10|
+|Michael Jordan|NE1 8AT|23|

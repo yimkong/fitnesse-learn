@@ -21,3 +21,9 @@
 |denominator|quotient?|
 |2|10|
 |5|3<_<5|
+
+!3 normal !-DoFixture-! features, can pass several parameters to method
+|fill|10|times with|x|
+|char at|4|With|x|
+|set list|A,B,C,D|
+|char at|2|With|C|

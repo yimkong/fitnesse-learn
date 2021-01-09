@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.fitSuit.FlowModeTest</rootPath>
+  <result>
+    <counts>
+      <right>12</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2021-01-09T20:49:10+08:00</date>
+    <runTimeInMillis>106</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;myfit.flowmode.DoFixtureFlowTest&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitlibrary.suite.FitLibraryServer&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3 id="ThefollowingtableisexecutedbyanembeddedSetUpFixture"&gt;The following table is executed by an embedded SetUpFixture-!-!&lt;/h3&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;prepare players&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;John Smith&lt;/td&gt;
+		&lt;td&gt;SW4 66Z&lt;/td&gt;
+		&lt;td&gt;10.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Michael Jordan&lt;/td&gt;
+		&lt;td&gt;NE1 8AT&lt;/td&gt;
+		&lt;td&gt;12.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;h3 id="ThefollowingtableisexecutedbyanArrayFixture"&gt;The following table is executed by an ArrayFixture-!-!&lt;/h3&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;list players&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;John Smith&lt;/td&gt;
+		&lt;td class="pass"&gt;SW4 66Z&lt;/td&gt;
+		&lt;td class="pass"&gt;10.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;Michael Jordan&lt;/td&gt;
+		&lt;td class="pass"&gt;NE1 8AT&lt;/td&gt;
+		&lt;td class="pass"&gt;12.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;h3 id="ThefollowingtableisexecutedbyanTestColumnFixture"&gt;The following table is executed by an TestColumnFixture-!&lt;/h3&gt;
+&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;testQuotient&lt;/td&gt;
+		&lt;td&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;denominator&lt;/td&gt;
+		&lt;td&gt;quotient?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td class="pass"&gt;3&lt;&lt;b&gt;4.0&lt;/b&gt;&lt;5&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;fill&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;times with&lt;/td&gt;
+		&lt;td&gt;x&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;char at&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td class="pass"&gt;With&lt;/td&gt;
+		&lt;td&gt;x&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;set list&lt;/td&gt;
+		&lt;td colspan="3"&gt;A,B,C,D&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td class="pass"&gt;char at&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td class="pass"&gt;With&lt;/td&gt;
+		&lt;td&gt;C&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>FlowModeTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 6274 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>785</totalRunTimeInMillis>
+</testResults>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.fitSuit.SetUpFixtureTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2021-01-09T20:31:38+08:00</date>
+    <runTimeInMillis>57</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitlibrary.suite.FitLibraryServer&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;myfit.SetupFixtureTest&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td&gt;balance&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;John Smith&lt;/td&gt;
+		&lt;td&gt;SW4 66Z&lt;/td&gt;
+		&lt;td&gt;10.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Michael Jordan&lt;/td&gt;
+		&lt;td&gt;NE1 8AT&lt;/td&gt;
+		&lt;td&gt;12.00&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SetUpFixtureTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 4494 3863</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>629</totalRunTimeInMillis>
+</testResults>
+

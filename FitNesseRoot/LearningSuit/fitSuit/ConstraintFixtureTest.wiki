@@ -1,0 +1,5 @@
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+!|myfit.ConstraintFixtureTest|
+|firstPart|secondPart|
+|1|2|
+|2|3|

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20200501</FitNesseVersion>
+  <rootPath>LearningSuit.fitSuit.ArrayFixtureTest</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <date>2021-01-09T21:00:13+08:00</date>
+    <runTimeInMillis>72</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_RUNNER=fitlibrary.suite.FitLibraryServer&lt;/span&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;myfit.arrayfixture.TestArrayFixture&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;post code&lt;/td&gt;
+		&lt;td class="error"&gt;credit limit&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find property creditLimit in myfit.flowmode.Player&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;John Smith&lt;/td&gt;
+		&lt;td&gt;SW4 66Z&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Michael Jordan&lt;/td&gt;
+		&lt;td&gt;NE1 8AT&lt;/td&gt;
+		&lt;td&gt;23&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ArrayFixtureTest</relativePageName>
+  </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_271\bin\java" -cp C:\project\fitnesse-learn\lib\fitnesse-learn.jar;C:\project\fitnesse-learn\lib\fitnesse-20200501-standalone.jar;C:\project\fitnesse-learn\lib\fitlibrary-2.0.jar;C:\project\fitnesse-learn\lib\log4j-1.2.17.jar fitlibrary.suite.FitLibraryServer DESKTOP-0140P2A 7314 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>573</totalRunTimeInMillis>
+</testResults>
+
